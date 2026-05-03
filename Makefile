@@ -1,10 +1,10 @@
 NAME = ircserv
 BONUS = bot
 CPPFLAGS = -Wall -Wextra -Werror
-INCLUDES = -I ./
-SRCS = irc.cpp commands.cpp irc_parsing_and_init.cpp Clients.cpp Channels.cpp commands_channel.cpp
+INCLUDES = -I lib/
+SRCS = srcs/irc.cpp srcs/commands.cpp srcs/irc_parsing_and_init.cpp srcs/Clients.cpp srcs/Channels.cpp srcs/commands_channel.cpp
 OBJS = $(SRCS:.cpp=.o)
-BSRCS = warningbot.cpp
+BSRCS = bonus/warningbot.cpp
 BOBJS = $(BSRCS:.cpp=.o)
 
 all: $(NAME)

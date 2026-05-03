@@ -6,11 +6,11 @@
 /*   By: ajamshid <ajamshid@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/27 16:05:54 by ajamshid          #+#    #+#             */
-/*   Updated: 2025/07/30 19:57:20 by ajamshid         ###   ########.fr       */
+/*   Updated: 2026/05/03 18:48:48 by ajamshid         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Clients.hpp"
+#include "../lib/Clients.hpp"
 
 Clients clients_bj;
 std::string server_password;

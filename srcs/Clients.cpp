@@ -6,11 +6,11 @@
 /*   By: ajamshid <ajamshid@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/30 12:56:51 by ajamshid          #+#    #+#             */
-/*   Updated: 2025/07/27 16:45:03 by ajamshid         ###   ########.fr       */
+/*   Updated: 2026/05/03 18:48:48 by ajamshid         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Clients.hpp"
+#include "../lib/Clients.hpp"
 
 std::vector<pollfd> &Clients::get_pollfds()
 {

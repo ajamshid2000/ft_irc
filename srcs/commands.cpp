@@ -6,7 +6,7 @@
 /*   By: ajamshid <ajamshid@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/27 15:16:19 by ajamshid          #+#    #+#             */
-/*   Updated: 2025/07/30 19:59:31 by ajamshid         ###   ########.fr       */
+/*   Updated: 2026/05/03 18:48:48 by ajamshid         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ PRIVMSG othernick :hello privately
 // /set dcc_autoget on/off (leave empty if you want to knwo current settings)
 // for file transfer (/dcc send reciever_nick ~/Desktop/...)
 
-#include "Clients.hpp"
+#include "../lib/Clients.hpp"
 
 // modif mel-yand = //
 void send_msg(int fd, const std::string &message)

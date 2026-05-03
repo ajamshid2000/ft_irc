@@ -1,4 +1,4 @@
-#include "Channels.hpp"
+#include "../lib/Channels.hpp"
 
 bool Channels::channelExists(const std::string &name) const
 {
